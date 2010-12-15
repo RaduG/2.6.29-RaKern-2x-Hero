@@ -1,0 +1,1 @@
+cmd_drivers/i2c/chips/built-in.o :=  /home/radug/Android/cm/system/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-ld -EL    -r -o drivers/i2c/chips/built-in.o drivers/i2c/chips/akm8973.o drivers/i2c/chips/bma150.o drivers/i2c/chips/pca963x.o drivers/i2c/chips/microp_i2c.o 

@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_owner.ko := /home/radug/Android/cm/system/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-ld -EL -r   --build-id -o net/netfilter/xt_owner.ko net/netfilter/xt_owner.o net/netfilter/xt_owner.mod.o

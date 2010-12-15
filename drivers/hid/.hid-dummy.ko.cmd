@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-dummy.ko := /home/radug/Android/cm/system/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-ld -EL -r   --build-id -o drivers/hid/hid-dummy.ko drivers/hid/hid-dummy.o drivers/hid/hid-dummy.mod.o
