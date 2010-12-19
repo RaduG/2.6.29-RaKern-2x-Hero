@@ -13,6 +13,13 @@
  *
  */
 
+-/* Ported HTC's filtering code from Hero kernel sources to prevent 
+- * the event hub being spammed with unnecessary events causing 
+- * massive cpu usage.
+- * netarchy / Ninpo
+- */
+
+
 #include <linux/module.h>
 #include <linux/delay.h>
 #include <linux/earlysuspend.h>
